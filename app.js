@@ -1,6 +1,7 @@
 console.log("TEST");
 
 let buttonImage = document.querySelector('img');
+let button = document.querySelector('button')
 
 function toggleDarkLightMode() {
     if (document.body.classList.contains('dark_mode')) {
@@ -14,4 +15,4 @@ function toggleDarkLightMode() {
         }
 }
 
-document.addEventListener('click', toggleDarkLightMode);
+button.addEventListener('click', toggleDarkLightMode);
