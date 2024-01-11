@@ -1,6 +1,17 @@
 body {
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+button {
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    border-radius: 20px;
+    padding: 3px;
+    cursor: pointer;
 }
 
 img {
@@ -8,15 +19,12 @@ img {
     height: 30px;
 }
 
-button {
-    border-radius: 10px;
-}
-
 body.dark_mode {
     background-color: black;
+    color: white;
   }
 
 body.light_mode {
     background-color: white;
+    color: black;
 }
-
