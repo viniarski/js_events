@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: right;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+button {
+    border-radius: 10px;
+}
+
+body.dark_mode {
+    background-color: black;
+  }
+
+body.light_mode {
+    background-color: white;
+}
+
