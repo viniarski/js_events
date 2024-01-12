@@ -12,6 +12,8 @@ button {
     border-radius: 20px;
     padding: 3px;
     cursor: pointer;
+    border: none;
+    background: none;
 }
 
 img {
